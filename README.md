@@ -17,7 +17,8 @@ A sleek, responsive, and fully functional OTP verification UI featuring a built-
 - **Vite** (Lightning-fast build tool)
 - **JavaScript** (ES6+)
 - **CSS3 & HTML5**
-
+- 
+```markdown
 ## 📂 Project Structure
 
 ```text
@@ -30,48 +31,63 @@ src/
 ├── main.jsx
 └── index.css
 
-⚙️ Installation and Setup
-Clone the repository:
+```
 
-Bash
+## ⚙️ Installation and Setup
+
+1. **Clone the repository:**
+```bash
 git clone [https://github.com/aadiyadav8155/Otp-page.git](https://github.com/aadiyadav8155/Otp-page.git)
-Navigate to the project folder:
 
-Bash
+```
+
+
+2. **Navigate to the project folder:**
+```bash
 cd Otp-page
-Install dependencies:
 
-Bash
+```
+
+
+3. **Install dependencies:**
+```bash
 npm install
-Start the development server:
 
-Bash
+```
+
+
+4. **Start the development server:**
+```bash
 npm run dev
-Open the local URL (usually http://localhost:5173/) displayed in your terminal.
 
-🧠 React Concepts Practiced
-useState: Storing and updating the remaining countdown time seamlessly.
+```
 
-useEffect: Mounting the timer logic, managing side effects, and preventing memory leaks.
 
-setInterval() & clearInterval(): Handling browser timing events safely within React's lifecycle.
+5. Open the local URL (usually `http://localhost:5173/`) displayed in your terminal.
 
-Time Formatting: Using Math.floor() and modulo (%) to dynamically convert raw seconds into a formatted MM:SS string.
+## 🧠 React Concepts Practiced
 
-Functional State Updates: Ensuring the countdown accurately updates based on the previous state to avoid rendering bugs.
+* **`useState`**: Storing and updating the remaining countdown time seamlessly.
+* **`useEffect`**: Mounting the timer logic, managing side effects, and preventing memory leaks.
+* **`setInterval()` & `clearInterval()**`: Handling browser timing events safely within React's lifecycle.
+* **Time Formatting**: Using `Math.floor()` and modulo (`%`) to dynamically convert raw seconds into a formatted `MM:SS` string.
+* **Functional State Updates**: Ensuring the countdown accurately updates based on the previous state to avoid rendering bugs.
 
-📌 Future Improvements
-[ ] Add auto-focus behavior that jumps to the next input box automatically.
+## 📌 Future Improvements
 
-[ ] Disable the 'Resend OTP' button visually and functionally while the timer is still running.
+* [ ] Add auto-focus behavior that jumps to the next input box automatically.
+* [ ] Disable the 'Resend OTP' button visually and functionally while the timer is still running.
+* [ ] Implement error handling and success messages for incorrect/correct OTP entries.
+* [ ] Connect the frontend UI to a live backend API for real OTP generation and validation.
 
-[ ] Implement error handling and success messages for incorrect/correct OTP entries.
+## 👨‍💻 Author
 
-[ ] Connect the frontend UI to a live backend API for real OTP generation and validation.
+**ADITYA YADAV**
 
-👨‍💻 Author
-ADITYA YADAV
+*Full Stack Web Development*
 
-Full Stack Web Development
+GitHub: [@aadiyadav8155](https://www.google.com/search?q=https://github.com/aadiyadav8155)
 
-GitHub: @aadiyadav8155
+```
+
+```
