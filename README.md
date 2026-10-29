@@ -1,16 +1,77 @@
-# React + Vite
+# 🔐 OTP Timer & Verification – React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive, and fully functional OTP verification UI featuring a built-in countdown timer. Built with **React.js** and **Vite**, this project showcases practical implementations of modern React Hooks, interval management, and clean UI/UX design.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ⏱️ **Dynamic Timer:** 2-minute countdown (02:00) that updates in real-time.
+- 🔄 **Smart Interval Management:** Automatically decreases every second and safely clears the interval at 00:00.
+- 📥 **Intuitive Input:** Seamless and responsive OTP input fields.
+- 🔁 **Resend Functionality:** 'Resend OTP' button that resets the timer instantly.
+- ⚛️ **Modern React:** Built purely with Functional Components, `useState`, and `useEffect`.
+- 🎨 **Custom Styling:** Clean, modern, and mobile-friendly design using CSS3.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js** (Hooks architecture)
+- **Vite** (Lightning-fast build tool)
+- **JavaScript** (ES6+)
+- **CSS3 & HTML5**
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── Components/
+│   ├── OtpPage.jsx
+│   └── OtpPage.css
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+
+⚙️ Installation and Setup
+Clone the repository:
+
+Bash
+git clone [https://github.com/aadiyadav8155/Otp-page.git](https://github.com/aadiyadav8155/Otp-page.git)
+Navigate to the project folder:
+
+Bash
+cd Otp-page
+Install dependencies:
+
+Bash
+npm install
+Start the development server:
+
+Bash
+npm run dev
+Open the local URL (usually http://localhost:5173/) displayed in your terminal.
+
+🧠 React Concepts Practiced
+useState: Storing and updating the remaining countdown time seamlessly.
+
+useEffect: Mounting the timer logic, managing side effects, and preventing memory leaks.
+
+setInterval() & clearInterval(): Handling browser timing events safely within React's lifecycle.
+
+Time Formatting: Using Math.floor() and modulo (%) to dynamically convert raw seconds into a formatted MM:SS string.
+
+Functional State Updates: Ensuring the countdown accurately updates based on the previous state to avoid rendering bugs.
+
+📌 Future Improvements
+[ ] Add auto-focus behavior that jumps to the next input box automatically.
+
+[ ] Disable the 'Resend OTP' button visually and functionally while the timer is still running.
+
+[ ] Implement error handling and success messages for incorrect/correct OTP entries.
+
+[ ] Connect the frontend UI to a live backend API for real OTP generation and validation.
+
+👨‍💻 Author
+ADITYA YADAV
+
+Full Stack Web Development
+
+GitHub: @aadiyadav8155
